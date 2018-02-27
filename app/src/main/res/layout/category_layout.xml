@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:padding="4sp"
+    android:clickable="true"
+    android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="90sp"
+            android:layout_height="67sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:clickable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="5sp"
+            android:background="@drawable/category_layout_shape"
+            android:text="@string/category_name"
+            android:textAlignment="center"
+            android:textColor="#000000" />
+</LinearLayout>

@@ -1,0 +1,94 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="5sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/registered_customer"
+        android:layout_width="match_parent"
+        android:padding="5sp"
+        android:textColor="#FF0000"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="If you have an account with us, please login."
+        android:padding="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/fragment_login_rmn"
+        android:text="REGISTERED MOBILE NUMBER*"
+        android:layout_width="match_parent"
+        android:padding="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:hint="REGISTERED MOBILE NUMBER*"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:background="@drawable/edit_text_shape"
+        android:id="@+id/fragment_login_mobile"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/fragment_login_password_txt"
+        android:text="PASSWORD*"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:padding="5sp"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/edit_text_shape"
+        android:id="@+id/fragment_login_password"
+        tools:ignore="HardcodedText"
+        android:inputType="textPassword" />
+
+    <Button
+        android:text="@string/loginButton"
+        android:layout_marginTop="18sp"
+        android:layout_gravity= "center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_login_login_button" />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/fragment_login_forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/forget"/>
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:text="@string/description_gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/signupButton"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_login_signup_button" />
+
+
+</LinearLayout>
+    

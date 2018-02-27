@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/fragment_cart_view_linear_layout_bottom"
+        android:layout_centerHorizontal="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:id="@+id/fragment_cart_view_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:background="@android:color/white"
+                    android:orientation="vertical"
+                    android:id="@+id/fragment_cart_view_linear_layout_summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+
+                        android:text="@string/priceDetails"
+                        android:padding="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:typeface="normal"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:background="@android:color/darker_gray"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1sp"/>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:text="Price "
+                            android:layout_marginStart="10sp"
+                            android:layout_marginLeft="10sp"
+                            android:gravity="start"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            tools:ignore="HardcodedText,RtlHardcoded" />
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:textSize="16sp"
+                            android:text="@string/rs"
+                            android:layout_marginEnd="10sp"
+                            android:layout_marginRight="10sp"
+                            android:gravity="end"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="textEnd" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="0.5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:id="@+id/fragment_cart_view_linear_layout_bottom"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/cart_item_layout_check_out"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:clickable="true"
+            style="@style/cart_button_bar"
+            android:text="@string/checkout"/>
+
+        <Button
+            android:id="@+id/cart_item_layout_continue_shopping"
+            android:layout_width="0dp"
+            android:layout_weight="3.5"
+            android:layout_height="wrap_content"
+            android:text="@string/continueshoping"
+            android:longClickable="true"
+            style="@style/cart_button_bar"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:clickable="true"
+            />
+
+        <Button
+            android:id="@+id/cart_item_layout_empty_cart"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:longClickable="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:clickable="true"
+            style="@style/cart_button_bar"
+            android:text="@string/emptycart" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

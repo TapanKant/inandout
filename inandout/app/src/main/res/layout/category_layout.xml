@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="4sp"
+    android:clickable="true"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="wrap_content"
+            android:text="@string/category_name"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:layout_height="wrap_content"
+            android:padding="5sp"
+            android:background="#70b72f"
+            android:layout_gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

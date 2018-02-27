@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/popup_window_layout_relative_layout"
+        android:background="@drawable/cart_item_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cartitems"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="17dp"
+            android:id="@+id/popup_window_layout_product_image" />
+
+        <TextView
+            android:text="@string/productdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popup_window_layout_product_prodDetails"
+            android:textColor="#000000"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+        <TextView
+            android:text="@string/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/popup_window_layout_product__mrp"
+            android:textColor="@color/mrp_color"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            />
+
+        <TextView
+            android:text="@string/sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sp_color"
+            android:id="@+id/popup_window_layout_product_sp" />
+
+        <TextView
+            android:text="@string/in_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:clickable="true"
+            android:textColor="#FF0000"
+            android:id="@+id/popup_window_layout_product_in_stock" />
+    </LinearLayout>
+
+</LinearLayout>

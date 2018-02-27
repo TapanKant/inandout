@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">RAJDHANI In \u0026 Out</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_cart">Cart</string>
+    <string name="action_search">Search</string>
+    <string name="category_name">Category</string>
+    <string name="category_name1">Category 1</string>
+    <string name="category_name2">Category 2</string>
+    <string name="viewAll1">View All</string>
+    <string name="viewAll2">View All</string>
+    <string name="in_stock">In Stock</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="continueshoping">CONTINUE SHOPPING</string>
+    <string name="emptycart">EMPTY CART</string>
+    <string name="new_address">New Address</string>
+    <string name="existing_address">Existing Address</string>
+
+    <string name="priceDetails">Payable Amount</string>
+    <string name="price">MRP \u20B9</string>
+    <string name="sp">SP \u20B9</string>
+    <string name="rs">\u20B9</string>
+    <string name="addtocart">Add to Cart</string>
+    <string name="productdetails">Product Details</string>
+    <string name="productdescription">Product Description</string>
+    <string name="productname">Product Name</string>
+    <string name="categoryname">Category</string>
+    <string name="stock">In Stock</string>
+    <string name="removeFromCart">Remove</string>
+    <string name="minus">—</string>
+    <string name="plus">✛</string>
+
+    <string name="cod">COD</string>
+    <string name="dr_cr">Debit/Credit card</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="registered_customer">REGISTERED CUSTOMER</string>
+    <string name="loginButton">Login</string>
+    <string name="signupButton">New User</string>
+    <string name="forget">Forget Password</string>
+    <string name="description_gen">By creating an account with our store you will be able to move through
+        the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.
+    </string>
+
+    <string name="fname">Name*</string>
+    <string name="lname">Last Name*</string>
+    <string name="email">Email*</string>
+    <string name="contactNo">Mobile*</string>
+    <string name="personalInformation">PERSONAL INFORMATION</string>
+
+    <string name="strQTY">Qty </string>
+
+    <string-array name="checkout">
+        <item>@string/cod</item>
+        <item>@string/dr_cr</item>
+    </string-array>
+
+    <string-array name="account">
+        <item>Account</item>
+        <item>Track order</item>
+        <item>Change Password</item>
+    </string-array>
+
+    <string-array name="qty">
+        <item>Qty</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>more</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Country</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="states">
+        <item>Bihar</item>
+        <item>Jharkhand</item>
+    </string-array>
+
+    <string-array name="bihar_district">
+        <item>Patna</item>
+        <item>Gaya</item>
+    </string-array>
+
+    <string-array name="jharkhand_district">
+        <item>Ranchi</item>
+        <item>Jamshedpur</item>
+    </string-array>
+
+    <string name="old_password">Old Password*</string>
+    <string name="new_password">New Password*</string>
+    <string name="confirm_new_password">Confirm New Password*</string>
+    <string name="change_password_button">Confirm Change</string>
+
+    <!-- Shipping information -->
+
+    <string name="name">Name*</string>
+    <string name="phone">Phone Number*</string>
+    <string name="address1">Address Line 1*</string>
+    <string name="city">District/City*</string>
+    <string name="state">State*</string>
+    <string name="pin">Pin Code*</string>
+    <string name="pay_mode">Payment Mode</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="confirm_button">Confirm Payment</string>
+</resources>

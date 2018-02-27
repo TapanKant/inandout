@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5sp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/cart_item_shape"
+        android:orientation="horizontal"
+        android:layout_margin="1sp"
+        tools:ignore="UselessParent">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/fragment_product_details_product_image"
+            android:layout_width="130dp"
+            android:layout_height="130sp"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:src="@drawable/ic_launcher"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginStart="10sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_product_details_product_details"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:text="@string/productdetails"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/fragment_product_details__product_MRP"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:textColor="@color/mrp_color"
+                android:text="@string/price"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/fragment_product_details_product_SP"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:text="@string/sp"
+                android:textColor="@color/sp_color"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/fragment_product_details_description"
+                style="@style/inStock"
+                android:layout_width="wrap_content"
+                android:layout_gravity="start"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:longClickable="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=""/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

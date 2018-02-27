@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:background="#C2C2C2"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/main_layout_category_scrollview_LL"
+                android:layout_width="wrap_content"
+                android:background="#C2C2C2"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+            <AdapterViewFlipper
+                android:layout_width="wrap_content"
+                android:layout_height="160sp"
+                android:animateFirstView="false"
+                android:loopViews="true"
+                android:paddingTop="0.5sp"
+                android:flipInterval="2000"
+                android:autoStart="true"
+                android:id="@+id/main_page_banner">
+            </AdapterViewFlipper>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                 >
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:text="@string/category_name1"
+                    android:textColor="#000000"
+                    android:gravity="start"
+                    android:layout_weight="1"
+                    android:id="@+id/main_layout_strip_one_category"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C2C2C2"
+                android:orientation="horizontal" >
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    tools:ignore="UselessParent">
+                    <LinearLayout
+                        android:id="@+id/category_view_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>

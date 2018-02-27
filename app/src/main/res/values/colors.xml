@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="button_shadow_color">#000000</color>
+    <color name="button_background_color">#FF0000</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="sp_color">@color/colorAccent</color>
+    <color name="mrp_color">#00FF00</color>
+
+
+</resources>

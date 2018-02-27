@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmls="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:paddingBottom="5dp"
+    android:background="#E2E2E2"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <AdapterViewFlipper
+            android:layout_width="fill_parent"
+            android:layout_height="155dp"
+            android:layout_alignParentTop="true"
+            android:animateFirstView="false"
+            android:loopViews="true"
+            android:flipInterval="2000"
+            android:autoStart="true"
+            android:id="@+id/main_page_banner">
+        </AdapterViewFlipper>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    >
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:scrollbars="vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="@string/personalInformation"
+        android:layout_width="match_parent"
+        android:textColor="#FF0000"
+        android:layout_margin="10sp"
+        android:ems="10"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/fragment_new_user_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:layout_margin="10sp"
+        android:hint="@string/fname"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:layout_margin="10sp"
+        android:hint="@string/contactNo"
+        android:ems="10"
+        android:id="@+id/fragment_new_user_mobile"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/fragment_new_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:layout_margin="10sp"
+        android:hint="@string/email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/fragment_new_user_submit_button"
+        android:layout_gravity="center"
+        android:text="Create User"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
+</ScrollView>
